@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    color: honeydew;
+font-family: "Montserrat";
+background-color: rgb(56, 56, 56);
+}
+
+.cabecero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.cabecero .cabecero-lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.cabecero .cabecero-item-concreto {
+    display: flex;
+    text-decoration: none;
+}
+
+.cabecero .cabecero-item-link {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cabecero a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
