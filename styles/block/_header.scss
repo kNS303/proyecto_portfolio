@@ -1,0 +1,35 @@
+.cabecero__nombre {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.cabecero {
+
+    .cabecero__lista {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        padding-bottom:  50px;
+        border-bottom: solid $color-secundario-bng 3px;
+        
+        
+
+        .cabecero__item__concreto {
+            
+
+
+            .cabecero__item__link {
+
+                text-decoration: none;
+                color: $color-secundario-bng;
+                font-size: 60px;
+                @include mobile {
+                font-size: 20px;
+            
+                }
+            }
+        }
+
+    }
+}

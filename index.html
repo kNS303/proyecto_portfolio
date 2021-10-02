@@ -4,82 +4,117 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css" />
-    <link
-      rel="icon"
-      href="https://images.vexels.com/media/users/3/132303/isolated/preview/96fdf1a7f0eeb89a64ff8629e8651431-herramienta-espiral.png"
-      type="image/png"
-    />
-    <title>Proyecto de Portfolio</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>PORTFOLIO</title>
   </head>
   <body>
     <header>
-      <h1 class="titulo-nombre">Alvaro Torres / kNS</h1>
+      <h1 class="cabecero__nombre">Alvaro Torres / kNS</h1>
       <nav class="cabecero">
-        <ul class="cabecero-lista">
-          <li class="cabecero-item-concreto">
-            <a class="cabecero-item-link" href="musica">MÚSICA</a>
+        <ul class="cabecero__lista">
+          <li class="cabecero__item__concreto">
+            <a class="cabecero__item__link" href="#musica">MÚSICA</a>
           </li>
-          <li class="cabecero-item-concreto">
-            <a class="cabecero-item-link" href="fotografía">FOTOGRAFÍA</a>
+          <li class="cabecero__item__concreto">
+            <a class="cabecero__item__link" href="#fotografía">FOTOGRAFÍA</a>
           </li>
-          <li class="cabecero-item-concreto">
-            <a class="cabecero-item-link" href="podcast">PODCAST</a>
+          <li class="cabecero__item__concreto">
+            <a class="cabecero__item__link" href="#podcast">PODCAST</a>
           </li>
-          <li class="cabecero-item-concreto">
-            <a class="cabecero-item-link" href="geek">GEEK</a>
+          <li class="cabecero__item__concreto">
+            <a class="cabecero__item__link" href="#geek">GEEK</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <div id="musica">
-        <h1 class="titulo-seccion-musica">MÚSICA</h1>
-        <h2>Dj / Productor desde 2010</h2>
-        <h3>Tools: Vinlyls / CDJ / Rekordbox / Ableton Live! / Analog Synth </h3>
-        <img class="imagendj"
-            src="https://i.imgur.com/sHll3eo.jpg"
-            alt="imagendj">
+        <div class="musica__textos">
+          <h1>MÚSICA</h1>
+          <h2>Dj / Productor desde 2010</h2>
+          <h3>
+            Tools: Vinlyls / CDJ / Rekordbox / Ableton Live! / Analog Synth
+          </h3>
+        </div>
+        <img
+          class="imagendj"
+          src="https://i.imgur.com/sHll3eo.jpg"
+          alt="imagendj"
+        />
       </div>
 
       <div id="fotografía">
-        <h1 class="titulo-seccion-fotografia">FOTOGRAFÍA</h1>
-        <h2>Fotografo, Laboratorio de imagen, positivado, revelado & edición.</h2>
-        <h3>Tools: Analog / Digital / Photoshop / Lightroom / Estudio</h3>
-        <img class="imagenfotografo"
-            src="https://i.imgur.com/49OEPMz.jpg"
-            alt="imagenfoto">
-
-          
+        <div class="fotografía__textos">
+          <h1>FOTOGRAFÍA</h1>
+          <h2>
+            Fotografo, Laboratorio de imagen, positivado, revelado & edición.
+          </h2>
+          <h3>Tools: Analog / Digital / Photoshop / Lightroom / Estudio</h3>
         </div>
+        <img
+          src="https://i.imgur.com/49OEPMz.jpg"
+          alt="imagenfoto"
+        />
+      </div>
+
+      <div id="podcast">
+        <div class="podcast__textos">
+          <h1>PODCAST</h1>
+          <h2>
+            Creación y realización de un Podcast de Videojuegos desde 2015.
+          </h2>
+          <h3>Tools: OBS Studio, Audacity, Anchor, Spotify, iVoox, RSS</h3>
+        </div>
+        <img src="https://i.imgur.com/U8pbHey.png" alt="imagenpodcast" />
+      </div>
+
+      <div>
+        <ul id="geek">
+          <li>
+            <h2>CINEMA</h2>
+            <div class="geek__img geek__img--1">
+              <!--  <img
+                class="geek__img--fotosredondas"
+                class="extra"
+                src="https://c.tenor.com/J_6Rv7jZ5K4AAAAC/cinema-321.gif"
+                alt="cinema"
+              /> -->
+            </div>
+          </li>
+          <li>
+            <h2>ANIME</h2>
+            <div class="geek__img geek__img--2">
+              <!-- <img
+                class="geek__img--fotosredondas"
+                src="https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif"
+                alt="anime"
+              /> -->
+            </div>
+          </li>
+          <li>
+            <h2>KEYBOARD CRAFT</h2>
+            <div class="geek__img geek__img--3">
+              <!-- <img
+                class="geek__img--fotosredondas"
+                src="http://input.club/wp-content/uploads/2016/06/BrownSwitch-3D.gif"
+                alt="mecanicalkeyboard"
+              /> -->
+            </div>
+          </li>
+          <li>
+            <h2>CÓMIC</h2>
+            <div class="geek__img geek__img--4">
+              <!--  <img
+                class="geek__img--fotosredondas"
+                src="https://media1.giphy.com/media/iCj3eKafQwvqDR6Fyu/giphy.gif"
+                alt="cómic"
+              /> -->
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
 
-
-    <footer>
-
-      <ul class="extrahobbys_menu">
-        <li class="hobbyitem">
-          <h1>ANIME</h1>
-          <img src="https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif" alt="anime">
-        </li>
-        <li class="hobbyitem">
-          <h1>ANIME</h1>
-          <img src="https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif" alt="anime">
-        </li>
-        <li class="hobbyitem">
-          <h1>KEYBOARD CRAFT</h1>
-          <img src="http://input.club/wp-content/uploads/2016/06/BrownSwitch-3D.gif" alt="mecanicalkeyboard">
-        </li>
-        <li class="hobbyitem">
-          <h1>ANIME</h1>
-          <img src="https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif" alt="anime">
-        </li>
-      </ul>
- 
-
-    </footer>
-  
-  
+    <footer></footer>
   </body>
 </html>

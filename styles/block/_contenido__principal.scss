@@ -1,0 +1,107 @@
+#musica {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  width: 100%;
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .musica__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 50%;
+    padding: 8px;
+    border: solid $color-secundario-bng;
+    box-shadow: 13px 15px 22px -5px black;
+    @include mobile {
+      max-width: 100%;
+    }
+  }
+}
+
+#fotografía {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 80px;
+  width: 100%;
+
+  .fotografía__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 50%;
+    padding: 8px;
+    border: solid $color-secundario-bng;
+    box-shadow: 13px 15px 22px -5px black;
+  }
+}
+
+#podcast {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  width: 100%;
+  border-bottom: $color-secundario-bng solid 3px;
+
+  .podcast__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 50%;
+    padding: 8px;
+    border: solid $color-secundario-bng;
+    box-shadow: 13px 15px 22px -5px black;
+  }
+}
+
+#geek {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .geek__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 250px;
+    border: solid $color-secundario-bng;
+    box-shadow: 13px 15px 22px -5px black;
+    &.geek__img--1 {
+      background-image: url("https://c.tenor.com/J_6Rv7jZ5K4AAAAC/cinema-321.gif");
+      background-position: center center;
+      background-size: cover;
+    }
+    &.geek__img--2 {
+      background-image: url("https://i.pinimg.com/originals/da/70/02/da700211c81f8725ead2823d2cf581d6.gif");
+      background-position: center center;
+      background-size: cover;
+    }
+    &.geek__img--3 {
+      background-image: url("http://input.club/wp-content/uploads/2016/06/BrownSwitch-3D.gif");
+      background-position: center center;
+      background-size: cover;
+    }
+    &.geek__img--4 {
+      background-image: url("https://media1.giphy.com/media/iCj3eKafQwvqDR6Fyu/giphy.gif");
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+}
