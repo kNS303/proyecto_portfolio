@@ -30,6 +30,9 @@
   justify-content: space-around;
   padding: 80px;
   width: 100%;
+  @include mobile {
+    flex-direction: column;
+  }
 
   .fotografía__textos {
     display: flex;
@@ -42,6 +45,9 @@
     padding: 8px;
     border: solid $color-secundario-bng;
     box-shadow: 13px 15px 22px -5px black;
+    @include mobile {
+      max-width: 100%;
+    }
   }
 }
 
@@ -51,6 +57,9 @@
   padding: 80px;
   width: 100%;
   border-bottom: $color-secundario-bng solid 3px;
+  @include mobile {
+    flex-direction: column;
+  }
 
   .podcast__textos {
     display: flex;
@@ -63,6 +72,9 @@
     padding: 8px;
     border: solid $color-secundario-bng;
     box-shadow: 13px 15px 22px -5px black;
+    @include mobile {
+      max-width: 100%;
+    }
   }
 }
 
@@ -71,6 +83,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 50px;
 
   h2 {
     text-align: center;
